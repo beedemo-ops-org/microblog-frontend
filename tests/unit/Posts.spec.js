@@ -5,7 +5,7 @@ describe('Posts.vue', () => {
     expect(typeof Posts.created).toBe('function')
   })
   it('sets the correct default data', () => {
-    expect(typeof Posts.data).toBe('function')
+    expect(typeof Posts.data).toBe('funtion')
     const defaultData = Posts.data()
     expect(defaultData.message).toBe('')
     expect(defaultData.posts).toEqual([])
